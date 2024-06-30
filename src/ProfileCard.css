@@ -1,0 +1,72 @@
+.profile-icon {
+  border-radius: 20;
+  width: 64px;
+  height: 64px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 16px;
+  padding: 16px 8px;
+  width: 100%;
+  max-width: 340px; /* Adjust max-width as needed */
+}
+
+.profile-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-title {
+  font-size: 20;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 4px;
+}
+
+.profile-description {
+  font-size: 16;
+  padding-top: 4px;
+  padding-bottom: 8px;
+  color: #525252;
+}
+
+.profile-selfintro {
+  font-size: 16;
+  padding-bottom: 16px;
+  color: #525252;
+}
+
+.contactme-button {
+  width: 308px;
+  background-color: #4338CA;
+  color:white;
+  font-size: 16;
+  border-radius: 4px;
+  height: 44px;
+  cursor: pointer;
+}
+
+.contact-button {
+  margin: 0px, 4px;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: white;
+  border-width: 0px;
+  border-radius: 4px;
+}
+
+.contact-button:hover {
+  background-color: #ccc;
+}
+
+.contact-row {
+  margin-top: 16px;
+}
+
